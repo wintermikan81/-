@@ -1,0 +1,45 @@
+body {
+  font-family: serif;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.page {
+    min-height: 100vh;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+}
+
+.paper{
+    width: min(420px, 90vw);
+    background-color: white;
+    padding: 20px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  color: red;
+}
+
+#text {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.vertical {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: left;
+  font-size: 18px;
+  margin-top: 20px;
+}
