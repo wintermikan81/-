@@ -12,9 +12,11 @@ body {
 }
 
 .paper{
-    width: min(420px, 90vw);
+    width: 100%;
+    max-width: 420px;
     background-color: white;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 #result {
@@ -42,4 +44,14 @@ body {
   text-align: left;
   font-size: 18px;
   margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .paper {
+        padding: 16px;
+    }
+
+    .vertical-text {
+        font-size: 1.2em;
+    }
 }
