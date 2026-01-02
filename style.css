@@ -43,7 +43,7 @@ body {
   text-orientation: upright;
   text-align: left;
   font-size: 18px;
-  margin-top: 20px;
+  margin: 20px auto;
 }
 
 @media (max-width: 600px) {
@@ -55,3 +55,4 @@ body {
         font-size: 1.2em;
     }
 }
+
