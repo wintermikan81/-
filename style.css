@@ -64,12 +64,11 @@ body {
 
 @media (max-width: 600px) {
   .vertical {
-    writing-mode: vertical-rl;
+    writing-mode: horizontal-tb;
     justify-content: center;
-    width: 8em;
-    font-size: 1.2em;
   }
 }
+
 
 
 
