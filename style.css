@@ -45,18 +45,12 @@ body {
   margin-bottom: 50px;
 }
 
-@media (max-width: 600px) {
-  .container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-  }
-}
-
 .vertical {
   writing-mode: vertical-rl;
+  display: flex;
   justify-content: center;
   text-orientation: upright;
+  align-items: center;
   text-align: left;
   font-size: 18px;
   margin: 20px auto;
@@ -64,10 +58,11 @@ body {
 
 @media (max-width: 600px) {
   .vertical {
-    writing-mode: horizontal-tb;
-    justify-content: center;
+    font-size: 16px;
+    margin: 10px auto;
   }
 }
+
 
 
 
