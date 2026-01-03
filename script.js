@@ -568,7 +568,7 @@ function ichigyoumeText() {
         return "映画化の鍵はニーチェが握る。";
     }
     if (m === 10) {
-        return "ハンモックから恋の予感。";
+        return "ハンモックから初恋の予感。";
     }
     if (m === 11) {
         return "温泉街で柿を食うとよい。";
@@ -834,3 +834,4 @@ function yongyoumeText() {
 }
 
 //おわり
+
