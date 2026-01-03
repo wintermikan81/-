@@ -835,3 +835,4 @@ function yongyoumeText() {
 
 //おわり
 
+
