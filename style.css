@@ -19,11 +19,12 @@ body {
     box-sizing: border-box;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
     .paper {
         width: 100%;
         padding: 16px;
     }
+}
 
 #result {
   margin-top: 20px;
@@ -40,25 +41,36 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  gap: 50px;
   margin-top: 0px;
   margin-bottom: 50px;
 }
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
 .vertical {
   writing-mode: vertical-rl;
   justify-content: center;
   text-orientation: upright;
-  text-align: center;
+  text-align: left;
   font-size: 18px;
   margin: 20px auto;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
   .vertical {
+    writing-mode: vertical-rl;
+    justify-content: center;
     width: 8em;
     font-size: 1.2em;
   }
 }
+
 
 
 
