@@ -1,4 +1,5 @@
 document.getElementById("draw").addEventListener("click", function () {
+  document.getElementById("draw").disabled = true;
   document.getElementById("result").innerHTML =
   `${judgeRank(total())} `;
   document.getElementById("text").innerHTML =
@@ -831,4 +832,5 @@ function yongyoumeText() {
         return "椿を愛でよ。";
     }
 }
+
 //おわり
